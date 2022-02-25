@@ -1,12 +1,15 @@
-import './App.css';
-import Login from './components/Login';
+import React from "react";
+import "./App.css";
+import Header from "./components/Header";
 
-function App() {
+const App = (props) => {
   return (
-    <div className="App">
-      <Login />
+    <div>
+      <Header />
+      {props.children}
+      <div className="Home"></div>
     </div>
   );
-}
+};
 
 export default App;

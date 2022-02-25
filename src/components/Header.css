@@ -1,0 +1,27 @@
+
+  .menu {
+    background-color: #ffffff;
+    height: 3.5rem;
+  }
+  
+  .menu-item {
+    display: inline-block;
+    color: rgb(24, 24, 24);
+    font-size: 1.2rem;
+    font-style: bold;
+    line-height: 3.5rem;
+    width: 19%;  
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+  }
+  
+  .menu-item:hover {
+    background-color: #e4e3e3;
+  }
+  
+  .menu-item:active,
+  .menu-item.active {
+    background-color: #e4e3e3;
+  }
