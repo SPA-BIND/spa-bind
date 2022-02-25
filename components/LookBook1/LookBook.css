@@ -1,0 +1,13 @@
+.LookBook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+.Look_Button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display : block ;
+    margin : 0 auto ;
+}
